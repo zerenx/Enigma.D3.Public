@@ -1,0 +1,9 @@
+G:\A_Diablo_III_Tools\Enigma.D3\2.3.0.33567.1\Enigma.D3.Memory\bin\Release\Enigma.D3.Memory.dll
+G:\A_Diablo_III_Tools\Enigma.D3\2.3.0.33567.1\Enigma.D3.Memory\bin\Release\Enigma.D3.Memory.pdb
+G:\A_Diablo_III_Tools\Enigma.D3\2.3.0.33567.1\Enigma.D3.Memory\bin\Release\Enigma.D3.Core.dll
+G:\A_Diablo_III_Tools\Enigma.D3\2.3.0.33567.1\Enigma.D3.Memory\bin\Release\Enigma.Memory.dll
+G:\A_Diablo_III_Tools\Enigma.D3\2.3.0.33567.1\Enigma.D3.Memory\bin\Release\Enigma.D3.Core.pdb
+G:\A_Diablo_III_Tools\Enigma.D3\2.3.0.33567.1\Enigma.D3.Memory\bin\Release\Enigma.Memory.pdb
+G:\A_Diablo_III_Tools\Enigma.D3\2.3.0.33567.1\Enigma.D3.Memory\obj\Release\Enigma.D3.Memory.csprojResolveAssemblyReference.cache
+G:\A_Diablo_III_Tools\Enigma.D3\2.3.0.33567.1\Enigma.D3.Memory\obj\Release\Enigma.D3.Memory.dll
+G:\A_Diablo_III_Tools\Enigma.D3\2.3.0.33567.1\Enigma.D3.Memory\obj\Release\Enigma.D3.Memory.pdb
