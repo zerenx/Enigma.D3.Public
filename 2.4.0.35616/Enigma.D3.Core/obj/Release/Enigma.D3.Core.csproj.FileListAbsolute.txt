@@ -1,0 +1,8 @@
+G:\D3.Enigma.Private\2.3.0.33567\Enigma.D3.Core\bin\Release\Enigma.D3.Core.dll
+G:\D3.Enigma.Private\2.3.0.33567\Enigma.D3.Core\bin\Release\Enigma.D3.Core.pdb
+G:\D3.Enigma.Private\2.3.0.33567\Enigma.D3.Core\obj\Release\Enigma.D3.Core.dll
+G:\D3.Enigma.Private\2.3.0.33567\Enigma.D3.Core\obj\Release\Enigma.D3.Core.pdb
+G:\A_Diablo_III_Tools\Enigma.D3\2.3.0.33567.1\Enigma.D3.Core\bin\Release\Enigma.D3.Core.dll
+G:\A_Diablo_III_Tools\Enigma.D3\2.3.0.33567.1\Enigma.D3.Core\bin\Release\Enigma.D3.Core.pdb
+G:\A_Diablo_III_Tools\Enigma.D3\2.3.0.33567.1\Enigma.D3.Core\obj\Release\Enigma.D3.Core.dll
+G:\A_Diablo_III_Tools\Enigma.D3\2.3.0.33567.1\Enigma.D3.Core\obj\Release\Enigma.D3.Core.pdb
