@@ -35,6 +35,5 @@ G:\A_Diablo_III_Tools\Enigma.D3.Public\2.4.0.35616\Enigma.D3.Core\obj\x86\Releas
 G:\A_Diablo_III_Tools\Enigma.D3.Public\2.4.0.35616\Enigma.D3.Core\obj\x86\Release\Enigma.D3.Core.csprojResolveAssemblyReference.cache
 G:\A_Diablo_III_Tools\Enigma.D3.Public\Enigma.D3.Core\bin\x86\Release\Enigma.D3.Core.dll
 G:\A_Diablo_III_Tools\Enigma.D3.Public\Enigma.D3.Core\bin\x86\Release\Enigma.D3.Core.pdb
-G:\A_Diablo_III_Tools\Enigma.D3.Public\Enigma.D3.Core\obj\x86\Release\Enigma.D3.Core.csprojResolveAssemblyReference.cache
 G:\A_Diablo_III_Tools\Enigma.D3.Public\Enigma.D3.Core\obj\x86\Release\Enigma.D3.Core.dll
 G:\A_Diablo_III_Tools\Enigma.D3.Public\Enigma.D3.Core\obj\x86\Release\Enigma.D3.Core.pdb

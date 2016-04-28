@@ -18,42 +18,42 @@ namespace Enigma.D3
 	{
 		private static class Addr
 		{
-            public const int SnoGroupInitializers = 0x01C36944; //2.4.0.36090
+            public const int SnoGroupInitializers = 0x01C3A954; //2.4.1.36595
 
             public const int VideoPreferences = HotkeyPreferences - 0xE4;  
             public const int SoundPreferences = HotkeyPreferences - 0x50;  
-            public const int HotkeyPreferences = 0x01C584F4;    //2.4.0.36090
+            public const int HotkeyPreferences = 0x01C5C4F4;    //2.4.1.36595
             public const int GameplayPreferences = HotkeyPreferences + 0x468;
             public const int SocialPreferences = HotkeyPreferences + 0x4C0;
             public const int ChatPreferences = HotkeyPreferences + 0x4F0;
 
-            public const int UIReferences = 0x01C70368; //2.4.0.36090
-            public const int LevelArea = 0x01E241F8; //2.4.0.36090
-            public const int LevelAreaName = 0x0E8C8B73; //2.4.0.36090
-            public const int MapActId = 0x01E24598; //2.4.0.36090
-            public const int TrickleManager = 0x1E72FA8;    //2.4.0.36090
-            public const int SnoGroups = 0x01E9A148;    //2.4.0.36090
-            public const int ObjectManager = 0x01E9A234;    //2.4.0.36090
-            public const int ObjectManagerPristine = 0x01E9A238;   //2.4.0.36090
-            public const int ApplicationLoopCount = 0x01E9A2A8; //2.4.0.36090
-            public const int LocalData = 0x01E9B4D8;    //2.4.0.36090
-            public const int SnoGroupByCode = 0x01E9B510;   //2.4.0.36090
-            public const int AttributeDescriptors = 0x01EEA578;  //2.4.0.36090
-            public const int SnoFilesAsync = 0x01F12644;    //2.4.0.36090
+            public const int UIReferences = 0x01C74368; //2.4.1.36595
+            public const int LevelArea = 0x01E28400; //2.4.1.36595
+            public const int LevelAreaName = 0x01E9F960; //2.4.1.36595
+            public const int MapActId = 0x01E287A0; //2.4.1.36595
+            public const int TrickleManager = 0x01E771B0;    //2.4.1.36595
+            public const int SnoGroups = 0x01E9F800;    //2.4.1.36595
+            public const int ObjectManager = 0x01E9F8EC;    //2.4.1.36595
+            public const int ObjectManagerPristine = 0x01E9F8F0;   //2.4.1.36595
+            public const int ApplicationLoopCount = 0x01E9F960; //2.4.1.36595
+            public const int LocalData = 0x01EA0B90;    //2.4.1.36595
+            public const int SnoGroupByCode = 0x01EA0BC8;   //2.4.1.36595
+            public const int AttributeDescriptors = 0x01EEFE70;  //2.4.1.36595
+            public const int SnoFilesAsync = 0x01F17DD4;    //2.4.1.36595
 
-            public const int UIHandlers = 0x00000000;   // not updated yet
-            public const int SnoGroupSearch = 0x00000000;   // not updated yet
-            public const int MessageDescriptor = 0x00000000;    // not updated yet
-            public const int ContainerManager = 0x00000000; // not updated yet
-            public const int BuffManager = 0x00000000;  // not updated yet
-            public const int SnoIdToEntityId = 0x00000000;  // not updated yet
-            public const int PtrSnoFiles = 0x00000000;  // not updated yet
+            public const int UIHandlers = 0x01C28B20;   //2.4.1.36595
+            public const int SnoGroupSearch = 0x00000000;   // 
+            public const int MessageDescriptor = 0x00000000;    // 
+            public const int ContainerManager = 0x00000000; // 
+            public const int BuffManager = 0x01E31F44;  //2.4.1.36595
+            public const int SnoIdToEntityId = 0x00000000;  // 
+            public const int PtrSnoFiles = 0x00000000;  //
         }
 
 		private static class Const
 		{
 			public const int SizeOfAttributeDescriptor = 40;
-			public const int CountAttributeDescriptors = 1435; // 
+			public const int CountAttributeDescriptors = ((0x1EFDF8C - 0x1EEFE8C) / AttributeDescriptor.SizeOf) - 1; //2.4.1.36595
 
             public const int CountUIReferences = 2767;
 
@@ -67,7 +67,7 @@ namespace Enigma.D3
 		[ThreadStatic]
 		private static Engine _current;
 
-		public static readonly Version SupportedVersion = new Version(2, 4, 0, 36090);
+		public static readonly Version SupportedVersion = new Version(2, 4, 1, 36595);
 
 		public static Engine Create()
 		{
