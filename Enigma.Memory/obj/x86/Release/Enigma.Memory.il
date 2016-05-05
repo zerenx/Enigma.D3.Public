@@ -58,14 +58,14 @@
   .ver 1:0:0:0
 }
 .module Enigma.Memory.dll
-// MVID: {83CB763C-006D-46C5-9682-8D07F2F18555}
+// MVID: {1EA81452-607D-4753-A5F2-A3FC28CC0758}
 .custom instance void [mscorlib]System.Security.UnverifiableCodeAttribute::.ctor() = ( 01 00 00 00 ) 
 .imagebase 0x10000000
 .file alignment 0x00000200
 .stackreserve 0x00100000
 .subsystem 0x0003       // WINDOWS_CUI
 .corflags 0x00000003    //  ILONLY 32BITREQUIRED
-// Image base: 0x00DA0000
+// Image base: 0x00CC0000
 
 
 // =============== CLASS MEMBERS DECLARATION ===================
@@ -99,7 +99,7 @@
       // Code size       21 (0x15)
       .maxstack  8
       .language '{3F5162F8-07C6-11D3-9053-00C04FA302A1}', '{994B45C4-E6E9-11D2-903F-00C04FA302A1}', '{5A869D0B-6611-11D3-BD2A-0000F80849BD}'
-      .line 18,18 : 5,49 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\Factories\\MemoryPointerFactory.cs'
+      .line 18,18 : 5,49 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\Factories\\MemoryPointerFactory.cs'
       IL_0000:  ldtoken    !T
       IL_0005:  call       class [mscorlib]System.Type [mscorlib]System.Type::GetTypeFromHandle(valuetype [mscorlib]System.RuntimeTypeHandle)
       IL_000a:  call       class Enigma.Memory.MemoryPointerFactory/Activator Enigma.Memory.MemoryPointerFactory::GetOrCreateActivator(class [mscorlib]System.Type)
@@ -370,7 +370,7 @@
   {
     // Code size       13 (0xd)
     .maxstack  8
-    .line 16,16 : 6,39 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\MemoryReaderImplementations\\BufferMemoryReader.cs'
+    .line 16,16 : 6,39 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\MemoryReaderImplementations\\BufferMemoryReader.cs'
     IL_0000:  ldarg.0
     IL_0001:  ldarg.1
     IL_0002:  ldc.i4.0
@@ -631,7 +631,7 @@
   {
     // Code size       41 (0x29)
     .maxstack  8
-    .line 14,14 : 3,39 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\MemoryReaderImplementations\\FileMemoryReader.cs'
+    .line 14,14 : 3,39 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\MemoryReaderImplementations\\FileMemoryReader.cs'
     IL_0000:  ldarg.0
     IL_0001:  call       instance void Enigma.Memory.MemoryReader::.ctor()
     .line 16,16 : 4,40 ''
@@ -811,7 +811,7 @@
       // Code size       150 (0x96)
       .maxstack  3
       .locals init ([0] class [mscorlib]System.Reflection.FieldInfo 'field')
-      .line 21,21 : 5,33 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\Helpers\\TypeHelper.cs'
+      .line 21,21 : 5,33 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\Helpers\\TypeHelper.cs'
       IL_0000:  ldarg.1
       IL_0001:  call       bool Enigma.Memory.TypeHelper::IsMemoryPointerType(class [mscorlib]System.Type)
       IL_0006:  brfalse.s  IL_000a
@@ -1173,7 +1173,7 @@
   {
     // Code size       14 (0xe)
     .maxstack  8
-    .line 7,7 : 64,113 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\MemoryAddress.cs'
+    .line 7,7 : 64,113 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\MemoryAddress.cs'
     IL_0000:  ldarga.s   address
     IL_0002:  ldflda     native int Enigma.Memory.MemoryAddress::Value
     IL_0007:  call       instance void* [mscorlib]System.IntPtr::ToPointer()
@@ -1527,7 +1527,7 @@
     .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
     // Code size       7 (0x7)
     .maxstack  8
-    .line 11,11 : 27,31 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\MemoryObject.cs'
+    .line 11,11 : 27,31 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\MemoryObject.cs'
     IL_0000:  ldarg.0
     IL_0001:  ldfld      class Enigma.Memory.IMemory Enigma.Memory.MemoryObject::'<Memory>k__BackingField'
     IL_0006:  ret
@@ -2325,7 +2325,7 @@
     .custom instance void [mscorlib]System.Runtime.CompilerServices.ExtensionAttribute::.ctor() = ( 01 00 00 00 ) 
     // Code size       28 (0x1c)
     .maxstack  8
-    .line 13,13 : 4,49 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\Extensions\\MemoryObjectExtensions.cs'
+    .line 13,13 : 4,49 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\Extensions\\MemoryObjectExtensions.cs'
     IL_0000:  ldarg.0
     IL_0001:  box        !!T
     IL_0006:  callvirt   instance class Enigma.Memory.IMemory Enigma.Memory.MemoryObject::get_Memory()
@@ -2367,7 +2367,7 @@
     {
       // Code size       21 (0x15)
       .maxstack  8
-      .line 18,18 : 5,49 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\Factories\\MemoryObjectFactory.cs'
+      .line 18,18 : 5,49 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\Factories\\MemoryObjectFactory.cs'
       IL_0000:  ldtoken    !T
       IL_0005:  call       class [mscorlib]System.Type [mscorlib]System.Type::GetTypeFromHandle(valuetype [mscorlib]System.RuntimeTypeHandle)
       IL_000a:  call       class Enigma.Memory.MemoryObjectFactory/Activator Enigma.Memory.MemoryObjectFactory::GetOrCreateActivator(class [mscorlib]System.Type)
@@ -2906,7 +2906,7 @@
   {
     // Code size       19 (0x13)
     .maxstack  8
-    .line 19,19 : 3,24 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\MemoryReaderImplementations\\MemoryReader.cs'
+    .line 19,19 : 3,24 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\MemoryReaderImplementations\\MemoryReader.cs'
     IL_0000:  ldarg.0
     IL_0001:  call       instance void [mscorlib]System.Object::.ctor()
     .line 21,21 : 4,38 ''
@@ -3764,7 +3764,7 @@
     {
       // Code size       28 (0x1c)
       .maxstack  8
-      .line 188,188 : 5,108 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\MemoryReaderImplementations\\MiniDumpMemoryReader.cs'
+      .line 188,188 : 5,108 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\MemoryReaderImplementations\\MiniDumpMemoryReader.cs'
       IL_0000:  ldarg.1
       IL_0001:  ldarg.0
       IL_0002:  ldfld      uint32 Enigma.Memory.MiniDumpMemoryReader/Page::StartOfMemoryRange
@@ -5128,7 +5128,7 @@
   {
     // Code size       52 (0x34)
     .maxstack  8
-    .line 12,12 : 3,50 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\PointerImplementations\\Ptr.cs'
+    .line 12,12 : 3,50 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\PointerImplementations\\Ptr.cs'
     IL_0000:  ldarg.0
     IL_0001:  call       instance void [mscorlib]System.Object::.ctor()
     .line 14,14 : 4,20 ''
@@ -5498,7 +5498,7 @@
     // Code size       42 (0x2a)
     .maxstack  4
     .locals init ([0] class [System]System.Diagnostics.FileVersionInfo fileVersionInfo)
-    .line 17,17 : 4,61 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\Extensions\\ProcessExtensions.cs'
+    .line 17,17 : 4,61 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\Extensions\\ProcessExtensions.cs'
     IL_0000:  ldarg.0
     IL_0001:  callvirt   instance class [System]System.Diagnostics.ProcessModule [System]System.Diagnostics.Process::get_MainModule()
     IL_0006:  callvirt   instance class [System]System.Diagnostics.FileVersionInfo [System]System.Diagnostics.ProcessModule::get_FileVersionInfo()
@@ -5786,7 +5786,7 @@
   {
     // Code size       112 (0x70)
     .maxstack  2
-    .line 21,21 : 3,46 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\MemoryReaderImplementations\\ProcessMemoryReader.cs'
+    .line 21,21 : 3,46 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\MemoryReaderImplementations\\ProcessMemoryReader.cs'
     IL_0000:  ldarg.0
     IL_0001:  call       instance void Enigma.Memory.MemoryReader::.ctor()
     .line 23,23 : 4,24 ''
@@ -6128,7 +6128,7 @@
   {
     // Code size       14 (0xe)
     .maxstack  8
-    .line 12,12 : 6,30 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\PointerImplementations\\StringPointer.cs'
+    .line 12,12 : 6,30 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\PointerImplementations\\StringPointer.cs'
     IL_0000:  ldarg.0
     IL_0001:  ldarg.1
     IL_0002:  ldarg.2
@@ -6397,7 +6397,7 @@
   {
     // Code size       28 (0x1c)
     .maxstack  8
-    .line 11,11 : 3,45 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\ReadOnlyMemory.cs'
+    .line 11,11 : 3,45 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\ReadOnlyMemory.cs'
     IL_0000:  ldarg.0
     IL_0001:  call       instance void [mscorlib]System.Object::.ctor()
     .line 13,13 : 4,23 ''
@@ -6474,7 +6474,7 @@
   {
     // Code size       49 (0x31)
     .maxstack  8
-    .line 15,15 : 4,35 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\2.4.0.35616\\Enigma.Memory\\Helpers\\StructHelper.cs'
+    .line 15,15 : 4,35 'G:\\A_Diablo_III_Tools\\Enigma.D3.Public\\Enigma.Memory\\Helpers\\StructHelper.cs'
     IL_0000:  ldsfld     bool class Enigma.Memory.TypeHelper`1<!T>::IsValueType
     IL_0005:  brtrue.s   IL_0012
 
@@ -6801,4 +6801,4 @@
 // =============================================================
 
 // *********** DISASSEMBLY COMPLETE ***********************
-// WARNING: Created Win32 resource file G:\A_Diablo_III_Tools\Enigma.D3.Public\2.4.0.35616\Enigma.Memory\obj\x86\Release\Enigma.Memory.res
+// WARNING: Created Win32 resource file G:\A_Diablo_III_Tools\Enigma.D3.Public\Enigma.Memory\obj\x86\Release\Enigma.Memory.res

@@ -411,7 +411,7 @@ namespace Enigma.D3.Enums
         DyeType = 401,
         Loot20Drop = 402,
         Post212Drop = 403,
-        Post212Drop_ = 404,
+        _Post212Drop = 404,
         AncientRank = 405,
         Unidentified = 406,
         RemoveLevelReq = 407,
@@ -1439,6 +1439,12 @@ namespace Enigma.D3.Enums
         PlatinumLastSignificantKill = 1429,
         PowerLastAttributeSnapshotUpdateTime = 1430,
         SkillButtonActiveGlow = 1431,
-        ParticipatingInSetDungeon = 1432
+        ParticipatingInSetDungeon = 1432,
+        MultiplicativeDamagePercentBonus = 1433,
+        MultiplicativeDamagePercentBonusForSkill = 1434,
+        InSetDungeonWorld = 1435,
+        MultiplicativeDamagePercentBonusNoPets = 1436,
+        MultiplicativeDamagePercentBonusAgainstCCTargets = 1437,
+        MultiplicativeDamagePercentBonusAgainstSlowedTargets = 1438
     }
 }

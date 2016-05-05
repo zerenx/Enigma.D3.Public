@@ -571,7 +571,7 @@ namespace Enigma.D3.Helpers
         public static Attribute<int> DyeType = new SimpleAttribute<int>(AttributeId.DyeType, 0);
         public static Attribute<int> Loot20Drop = new SimpleAttribute<int>(AttributeId.Loot20Drop, 0);
         public static Attribute<int> Post212Drop = new SimpleAttribute<int>(AttributeId.Post212Drop, 0);
-        public static Attribute<int> Post212Drop_ = new SimpleAttribute<int>(AttributeId.Post212Drop_, 0);
+        public static Attribute<int> _Post212Drop = new SimpleAttribute<int>(AttributeId._Post212Drop, 0);
         public static Attribute<int> AncientRank = new SimpleAttribute<int>(AttributeId.AncientRank, 0);
         public static Attribute<int> Unidentified = new SimpleAttribute<int>(AttributeId.Unidentified, 0);
         public static Attribute<int> RemoveLevelReq = new SimpleAttribute<int>(AttributeId.RemoveLevelReq, 0);
@@ -1600,6 +1600,12 @@ namespace Enigma.D3.Helpers
         public static Attribute<int> PowerLastAttributeSnapshotUpdateTime = new SimpleAttribute<int>(AttributeId.PowerLastAttributeSnapshotUpdateTime, 0);
         public static Attribute<int> SkillButtonActiveGlow = new SimpleAttribute<int>(AttributeId.SkillButtonActiveGlow, 0);
         public static Attribute<int> ParticipatingInSetDungeon = new SimpleAttribute<int>(AttributeId.ParticipatingInSetDungeon, 0);
+        public static Attribute<float> MultiplicativeDamagePercentBonus = new SimpleAttribute<float>(AttributeId.MultiplicativeDamagePercentBonus, 1);
+        public static Attribute<float> MultiplicativeDamagePercentBonusForSkill = new SimpleAttribute<float>(AttributeId.MultiplicativeDamagePercentBonusForSkill, 1);
+        public static Attribute<int> InSetDungeonWorld = new SimpleAttribute<int>(AttributeId.InSetDungeonWorld, 0);
+        public static Attribute<float> MultiplicativeDamagePercentBonusNoPets = new SimpleAttribute<float>(AttributeId.MultiplicativeDamagePercentBonusNoPets, 1);
+        public static Attribute<float> MultiplicativeDamagePercentBonusAgainstCCTargets = new SimpleAttribute<float>(AttributeId.MultiplicativeDamagePercentBonusAgainstCCTargets, 1);
+        public static Attribute<float> MultiplicativeDamagePercentBonusAgainstSlowedTargets = new SimpleAttribute<float>(AttributeId.MultiplicativeDamagePercentBonusAgainstSlowedTargets, 1);
     }
     #endregion
 }

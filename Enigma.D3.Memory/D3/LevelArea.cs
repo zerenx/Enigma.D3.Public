@@ -10,7 +10,7 @@ namespace Enigma.D3
 	public partial class LevelArea : MemoryObject
 	{
 		
-		public const int SizeOf = 0x930;
+		public const int SizeOf = 0x310;
 
 		public Ptr<ListB> x000_PtrListB_AttachmentList { get { return ReadPointer<ListB>(0x000); } }
 		public Ptr<Map<int, Marker>> x004_PtrEtcMarkersMap { get { return ReadPointer<Map<int, Marker>>(0x004); } }
